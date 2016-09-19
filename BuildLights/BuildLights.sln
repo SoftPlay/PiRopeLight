@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildLights", "BuildLights\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastucture", "Infrastucture\Infrastucture.csproj", "{148B4FC7-69F9-406A-B8D1-C87A758E1934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsOnPremDriver.Tests.Unit", "TfsOnPremDriver.Tests.Unit\TfsOnPremDriver.Tests.Unit.csproj", "{89D23026-D79D-4767-888D-82425C1EC1CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,26 @@ Global
 		{148B4FC7-69F9-406A-B8D1-C87A758E1934}.Release|x64.Build.0 = Release|x64
 		{148B4FC7-69F9-406A-B8D1-C87A758E1934}.Release|x86.ActiveCfg = Release|x86
 		{148B4FC7-69F9-406A-B8D1-C87A758E1934}.Release|x86.Build.0 = Release|x86
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|ARM.ActiveCfg = Debug|ARM
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|ARM.Build.0 = Debug|ARM
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|ARM.Deploy.0 = Debug|ARM
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|x64.ActiveCfg = Debug|x64
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|x64.Build.0 = Debug|x64
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|x64.Deploy.0 = Debug|x64
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|x86.ActiveCfg = Debug|x86
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|x86.Build.0 = Debug|x86
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Debug|x86.Deploy.0 = Debug|x86
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|Any CPU.ActiveCfg = Release|x86
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|ARM.ActiveCfg = Release|ARM
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|ARM.Build.0 = Release|ARM
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|ARM.Deploy.0 = Release|ARM
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|x64.ActiveCfg = Release|x64
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|x64.Build.0 = Release|x64
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|x64.Deploy.0 = Release|x64
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|x86.ActiveCfg = Release|x86
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|x86.Build.0 = Release|x86
+		{89D23026-D79D-4767-888D-82425C1EC1CD}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
