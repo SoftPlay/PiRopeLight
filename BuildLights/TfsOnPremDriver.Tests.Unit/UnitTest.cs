@@ -1,10 +1,10 @@
-﻿using System;
-using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
-
-namespace TfsOnPremDriver.Tests.Unit
+﻿namespace TfsOnPremDriver.Tests.Unit
 {
+	using System;
+	using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
+
     [TestClass]
-    public class UnitTest1
+    public class UnitTest
     {
         [TestMethod]
         public void TestMethod1()
