@@ -133,12 +133,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TfsDriver\TfsDriver.csproj">
-      <Project>{456b73fc-dd98-4d17-8249-ff9c71ce94b6}</Project>
-      <Name>TfsDriver</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
