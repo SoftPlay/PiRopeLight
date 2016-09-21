@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsOnPremDriver", "TfsOnPre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildLights.Tests.Unit", "BuildLights.Tests.Unit\BuildLights.Tests.Unit.csproj", "{4719C497-C102-46CC-88F2-D1A83F991A60}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38811D02-8469-4C72-B9D1-FB70657FCC86}"
+	ProjectSection(SolutionItems) = preProject
+		GetBuilds.ps1 = GetBuilds.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
