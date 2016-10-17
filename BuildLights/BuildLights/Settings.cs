@@ -12,6 +12,13 @@
 	{
 		private ApplicationDataContainer application;
 
+		public Settings()
+		{
+			var applicationData = Windows.Storage.ApplicationData.Current;
+
+			this.application = applicationData.LocalSettings;
+		}
+
 		public string HostName
 		{
 			get
@@ -29,7 +36,7 @@
 		{
 			get
 			{
-				throw new NotImplementedException();
+				return (ushort)this.application.Values["Port"];
 			}
 
 			set
@@ -42,20 +49,13 @@
 		{
 			get
 			{
-				throw new NotImplementedException();
+				return (string)this.application.Values["Project"];
 			}
 
 			set
 			{
 				throw new NotImplementedException();
 			}
-		}
-
-		public Settings()
-		{
-			var applicationData = Windows.Storage.ApplicationData.Current;
-
-			this.application = applicationData.LocalSettings;
 		}
 	}
 }
