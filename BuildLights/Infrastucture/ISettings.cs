@@ -6,8 +6,12 @@
 	using System.Text;
 	using System.Threading.Tasks;
 
-    public interface ITfsService
-    {
-		Task<IQueryable<string>> GetCompletedBuilds(string project);
-    }
+	public interface ISettings
+	{
+		string HostName { get; set; }
+
+		ushort Port { get; set; }
+
+		string Project { get; set; }
+	}
 }

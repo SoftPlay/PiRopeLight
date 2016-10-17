@@ -116,6 +116,7 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ISettings.cs" />
     <Compile Include="ITfsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Infrastucture.rd.xml" />
