@@ -116,9 +116,15 @@
     <None Include="TfsOnPremDriver.ruleset" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="TfsOnPremService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\TfsOnPremDriver.rd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastucture\Infrastucture.csproj">
+      <Project>{148B4FC7-69F9-406A-B8D1-C87A758E1934}</Project>
+      <Name>Infrastucture</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
